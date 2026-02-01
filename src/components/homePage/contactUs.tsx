@@ -62,22 +62,22 @@ const ContactUs = () => {
             <input
               type="text"
               placeholder="Name"
-              className="w-full p-4 bg-white border placeholder:text-gray-400 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+              className="w-full p-4 bg-white border placeholder:text-gray-300 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full p-4 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+              className="w-full p-4 bg-white border placeholder:text-gray-300 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
             />
             <textarea
               placeholder="Message"
               rows={4}
-              className="w-full p-4 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+              className="w-full p-4 bg-white border placeholder:text-gray-300 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
             ></textarea>
 
             <button
               type="submit"
-              className="bg-[#36B864] hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
+              className="bg-[#36B864] hover:bg-green-600 placeholder:text-gray-300 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
             >
               Sent Massage
             </button>
